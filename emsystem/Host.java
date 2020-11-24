@@ -1,4 +1,4 @@
-package emsystem;
+package EMSystem;
 
 public class Host extends User {
     // Data Members

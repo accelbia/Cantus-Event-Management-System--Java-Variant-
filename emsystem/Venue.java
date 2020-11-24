@@ -1,4 +1,4 @@
-package emsystem;
+package EMSystem;
 
 public class Venue 
 {
