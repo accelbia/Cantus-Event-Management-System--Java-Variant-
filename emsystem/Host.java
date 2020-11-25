@@ -122,22 +122,12 @@ public class Host extends User {
         Index.header();
         System.out.print("Enter the Event Code you want to cancel\t:");
         int code = Index.in.nextInt();
-        int flag = 0;
-        for (int i = 0; i < 100; i++) {
-            if (o[i] == null) {
-                continue;
-            }
-            if (o[i].e.Event_ID == code) {
-                flag = 1;
-                o[i] = null;
-            }
+        if(o[code]==null)
+        {
+            System.out.println("\nThe event you mentioned doesn't exist! Please try again later.");
         }
-
-        if (flag == 0) {
-            System.out.println("\nThe event you mentioned does not exist! Please try again later.");
-            Thread.sleep(2500);
-        }
-
+        else
+            o[code] = null;
     }
 
     protected void Reschedule_Event() throws InterruptedException {
