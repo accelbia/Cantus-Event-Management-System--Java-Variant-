@@ -127,7 +127,10 @@ public class Host extends User {
             System.out.println("\nThe event you mentioned doesn't exist! Please try again later.");
         }
         else
+        {
             o[code] = null;
+            System.out.println("The order has been cancelled!");
+        }
     }
 
     protected void Reschedule_Event() throws InterruptedException {

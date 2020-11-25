@@ -31,7 +31,7 @@ public class Index
         //Admin Registration
         Administrator admin[]=new Administrator[4];
 
-        admin[0] = new Administrator("X", "Developer", "X00", "Ayush", "Barik", 12345, "1");
+        admin[0] = new Administrator("X00", "Developer", "X00", "Ayush", "Barik", 12345, "Leviathan#01");
         admin[1] = new Administrator("X01", "Leader", "X01", "Shreya", "Nandigam", 67890, "Artemis#02");
         admin[2] = new Administrator("X02", "Designer", "X02", "Sai", "Prasad", 12121, "Chronos#03");
         admin[3] = new Administrator("X03", "Testing and Documentation", "X03", "Meka", "Dasharna", 98765, "Crysynthia#01");
